@@ -1,0 +1,30 @@
+{
+  "name": "pepelatz-next-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pepelatz/pepelatz-next-server.git",
+  "author": "Vlad Zadvorny <vladzadvorny@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.53",
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/node": "^7.0.0-beta.53",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "babel-plugin-import-graphql": "^2.6.2",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "nodemon": "^1.18.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.53",
+    "dotenv": "^6.0.0",
+    "graphql": "^0.13.2",
+    "koa": "^2.5.2"
+  }
+}

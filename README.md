@@ -7,3 +7,5 @@ The backend for a pepelatz.club using Koa, MongoDB and GraphQL
 Eslint: [https://www.npmjs.com/package/eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)
 
 Babel: [https://babeljs.io/](https://babeljs.io/)
+
+## Видео 2
